@@ -1,0 +1,8 @@
+def string_to_bit(s):
+    result = []
+    for c in s:
+        result.append(ord(c))   
+    return result
+
+x = input("Type a string: ")
+string_to_bit(x)
